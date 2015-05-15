@@ -3,10 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/s.css" />
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<style>
+			body,html{height:100%;font-size:16px;font-family:'Open Sans',sans-serif}body{margin:0}.header-title,.header-txt{color:#fff;margin:0}.header-title{font-size:2rem}.header-txt{font-size:1.2rem}h1{font-family:Muli,sans-serif;color:#343434}p{font-size:1.2rem;color:#343434}.link{text-decoration:none;color:inherit}.fa-facebook-square{color:#3b5998}.fa-linkedin-square{color:#0177b5}a.fa-facebook-square,a.fa-linkedin-square{font-size:2em}#content{margin:2.5rem 2.5rem 1rem}.block{display:inline-block}header{padding:1.4rem;background:#03A9F4;text-align:center;-webkit-box-shadow:0 2px 5px rgba(0,0,0,.26);-moz-box-shadow:0 2px 5px rgba(0,0,0,.26);box-shadow:0 2px 5px rgba(0,0,0,.26)}.content{padding:1rem;height:100%}@media (min-width:480px){header{padding:2rem}.header-title{font-size:2rem}.header-txt{font-size:1.5rem}h1{font-size:3rem}p{font-size:1.5rem}a.fa-facebook-square,a.fa-linkedin-square{font-size:3em}#content{margin:2.5rem auto 1rem;width:430px}}@media (min-width:700px){#content{width:520px}}@media (min-height:835px) and (min-width:800px){header{padding:9.5rem;background:#03A9F4;text-align:center;-webkit-box-shadow:0 4px 5px rgba(0,0,0,.26);-moz-box-shadow:0 4px 5px rgba(0,0,0,.26);box-shadow:0 4px 5px rgba(0,0,0,.26)}}@media (min-width:1000px) and (min-height:1280px){.header-txt,p{font-size:2rem}#content{height:460px}}
+		</style>
 	</head>
 	<body>
 		<header>
@@ -24,5 +23,21 @@
 				<a href="https://fi.linkedin.com/pub/teemu-räsänen/b7/911/b20" class="link fa fa-linkedin-square"></a>
 			</div>
 		</div>
+		<script>
+			WebFontConfig = {
+				google: { families: [ 'Muli::latin', 'Open+Sans::latin' ] },
+				custom: { families: [ 'FontAwesome'],
+					urls: ['//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css']}
+			  };
+			  (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+				  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			  })();
+		</script>
 	</body>
 </html>
