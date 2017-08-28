@@ -1,0 +1,40 @@
+@import 'variables'
+@import 'util'
+@import 'header'
+@import 'arrow'
+@import 'footer'
+@import 'core'
+@import 'resume-link'
+
+#contact
+  display: none
+
+footer ul li
+  margin-top: 0.5rem
+  display: flex
+  align-items: center
+
+@media (min-width: 1200px)
+  #contact
+    display: block
+  html, body
+    font-size: 27px
+  header
+    padding: 7.4rem 2rem 2rem
+  header h1
+    font-size: 62px
+  header p
+    font-size: 24px
+  main
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+  footer
+    display: none
+  .block
+    max-width: 710px
+    width: 710px
+  #contact p
+    display: flex
+    align-items: center

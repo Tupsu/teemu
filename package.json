@@ -1,0 +1,29 @@
+{
+  "name": "tupsu.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tupsu/tupsu.github.io.git"
+  },
+  "author": "Teemu Räsänen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tupsu/tupsu.github.io/issues"
+  },
+  "homepage": "https://github.com/Tupsu/tupsu.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-minify-inline": "^1.0.0",
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^2.1.0"
+  }
+}
