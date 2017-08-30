@@ -55,7 +55,7 @@ gulp.task('html', () => {
 });
 
 gulp.task('cp-assets', () => {
-  return gulp.src('./resume.pdf')
+  return gulp.src('./*.pdf')
     .pipe(gulp.dest('dist/'));
 });
 
