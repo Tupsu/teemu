@@ -74,6 +74,9 @@ footer
   ul
     color: #fff
 
+#linkedin a:after
+    content: "LinkedIn"
+
 @media (min-width: 320px)
   .arrow
     width: 239px
@@ -168,3 +171,32 @@ footer
     min-width: 411px
   ul
     margin: 2rem 0
+
+@media print
+  #download-resume
+    display: none
+
+  ul
+    font-size: 16px
+  .arrow
+    font-size: 18px
+    min-width: 490px
+    &:after
+      border-top: 24px solid transparent
+      border-right: 24px solid transparent
+      border-bottom: 24px solid transparent
+      border-left: 24px solid #03a9f4
+  ul.skill
+    max-width: 580px
+
+  footer
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+
+  #linkedin a:after
+    content: "https://www.linkedin.com/in/teemu-räsänen-b20911b7"
+
+  #header
+    font-size: 20px
